@@ -19,7 +19,7 @@ The following table show the available adapters and which features they support.
 | [Net::HTTP::Persistent] | v1 only |   ✔️   |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Patron]                | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✖️   |
 | [Typhoeus]              | v1 only |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
-| [HTTP.rb]               | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
+| [HTTP.rb]               |   ✖️    |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 
 ## Middleware
 
