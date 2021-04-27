@@ -23,6 +23,8 @@ The following table show the available adapters and which features they support.
 
 ## Middleware
 
+Under the hood, Faraday uses a Rack-inspired middleware stack for making requests. Much of Faraday’s power is unlocked with custom middleware. Some middleware is included with Faraday, and others are in external gems. [Learn more about Middleware](https://lostisland.github.io/faraday/usage/).
+
 ### Body Types
 
 TBC
