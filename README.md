@@ -33,6 +33,13 @@ In addition to our curated list of middleware, we would like to specifically cal
 - [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent http failures
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
+#### Awesome Community Middleware
+
+- [cookie_jar](https://github.com/miyagawa/faraday-cookie_jar) - support for http cookies
+- [detailed_logger](https://github.com/envylabs/faraday-detailed_logger) - robust logging for requests & responses
+- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling utf8 responses
+- [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
+
 #### Included with `faraday` itself
 
 - [authorization](https://github.com/lostisland/faraday/blob/main/lib/faraday/request/authorization.rb) - middleware for the Authorization http header
@@ -60,15 +67,8 @@ In addition to our curated list of middleware, we would like to specifically cal
 - [method_override](https://github.com/lostisland/faraday_middleware/blob/main/docs/method_override.md) - support for X-Http-Method-Override
 - [oauth/oauth2](https://github.com/lostisland/faraday_middleware/blob/main/docs/oauth.md) - adds an oauth access token to each request
 - [rashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/rashify.rb) - parse responses into a [Hashie::Rash](https://github.com/hashie/hashie)
-- [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parses responses as xml
+- [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parse responses as xml
 - [yaml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_yaml.rb) - parse responses as yaml
-
-#### Awesome Community Middleware
-
-- [cookie_jar](https://github.com/miyagawa/faraday-cookie_jar) - support for http cookies
-- [detailed_logger](https://github.com/envylabs/faraday-detailed_logger) - robust logging for requests & responses
-- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling utf8 responses
-- [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
 
 ### Body Types
 
