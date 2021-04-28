@@ -27,48 +27,48 @@ Under the hood, Faraday uses a Rack-inspired middleware stack for making request
 
 In addition to our curated list of middleware, we would like to specifically call your attention to middleware that is helpful for general HTTP use:
 
-- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling utf8 responses
-- [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow http 30X redirects
-- [json](https://github.com/lostisland/faraday_middleware) - encode/decode json requests and responses
-- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent http failures
+- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
+- [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
+- [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
+- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
 #### Awesome Community Middleware
 
-- [cookie_jar](https://github.com/miyagawa/faraday-cookie_jar) - support for http cookies
+- [cookie_jar](https://github.com/miyagawa/faraday-cookie_jar) - support for HTTP cookies
 - [detailed_logger](https://github.com/envylabs/faraday-detailed_logger) - robust logging for requests & responses
-- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling utf8 responses
+- [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
 
 #### Included with `faraday` itself
 
-- [authorization](https://github.com/lostisland/faraday/blob/main/lib/faraday/request/authorization.rb) - middleware for the Authorization http header
-- [basic_authentication](https://lostisland.github.io/faraday/middleware/authentication) - http basic auth
+- [authorization](https://github.com/lostisland/faraday/blob/main/lib/faraday/request/authorization.rb) - middleware for the Authorization HTTP header
+- [basic_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP basic auth
 - [instrumentation](https://lostisland.github.io/faraday/middleware/instrumentation) - instrument requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
 - [logger](https://lostisland.github.io/faraday/middleware/logger) - log request and response
 - [multipart](https://lostisland.github.io/faraday/middleware/multipart) - encode request body as a multipart form
 - [raise_error](https://lostisland.github.io/faraday/middleware/raise-error) - raises exception on 4xx or 5xx
-- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent http failures
-- [token_authentication](https://lostisland.github.io/faraday/middleware/authentication) - http token authentication
+- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
+- [token_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP token authentication
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
 #### `faraday_middleware` gem
 
 - [caching](https://github.com/lostisland/faraday_middleware/blob/main/docs/caching_responses.md) - simple cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
-- [chunked](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/chunked.rb) - support for http Transfer-Encoding
+- [chunked](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/chunked.rb) - support for HTTP Transfer-Encoding
 - [dates](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_dates.rb) - parse ISO 8601 dates from response body
-- [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow http 30X redirects
+- [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
 - [gzip](https://github.com/lostisland/faraday_middleware/blob/main/docs/gzip.md) - decompress responses (needed for some non-default adapters)
 - [instrumentation](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/instrumentation.rb) - instruments requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
-- [json](https://github.com/lostisland/faraday_middleware) - encode/decode json requests and responses
-- [json_fix](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_json.rb) - fix responses that insist on serving json with wrong mime types
+- [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
+- [json_fix](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_json.rb) - fix responses that insist on serving JSON with wrong mime types
 - [marshal](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_marshal.rb) - parse responses as marshalled ruby objects
 - [mashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/mashify.rb) - parse responses into a [Hashie::Mash](https://github.com/hashie/hashie)
 - [method_override](https://github.com/lostisland/faraday_middleware/blob/main/docs/method_override.md) - support for X-Http-Method-Override
 - [oauth/oauth2](https://github.com/lostisland/faraday_middleware/blob/main/docs/oauth.md) - adds an oauth access token to each request
 - [rashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/rashify.rb) - parse responses into a [Hashie::Rash](https://github.com/hashie/hashie)
-- [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parse responses as xml
-- [yaml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_yaml.rb) - parse responses as yaml
+- [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parse responses as XML
+- [yaml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_yaml.rb) - parse responses as YAML
 
 ### Body Types
 
