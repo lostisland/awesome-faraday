@@ -25,7 +25,7 @@ The following table show the available adapters and which features they support.
 
 Under the hood, Faraday uses a Rack-inspired middleware stack for making requests. Much of Faraday’s power is unlocked with custom middleware. Some middleware is included with Faraday, and others are in external gems. [Learn more about Middleware](https://lostisland.github.io/faraday/middleware/).
 
-In addition to our curated list of middleware, we would like to specifically call your attention to middleware that is helpful for general HTTP use:
+In addition to this curated list of middleware, we would like to specifically call your attention to middleware that is helpful for general HTTP use:
 
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
