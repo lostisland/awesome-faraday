@@ -27,6 +27,7 @@ Under the hood, Faraday uses a Rack-inspired middleware stack for making request
 
 In addition to this curated list of middleware, we would like to specifically call your attention to middleware that is helpful for general HTTP use:
 
+- [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
 - [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
