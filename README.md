@@ -78,9 +78,9 @@ TBC
 [EM::HTTP]:               https://github.com/lostisland/faraday-em_http
 [EM::Synchrony]:          https://github.com/lostisland/faraday-em_synchrony
 [Excon]:                  https://github.com/lostisland/faraday-excon
-[HttpClient]:             https://github.com/lostisland/faraday/blob/main/lib/faraday/adapter/httpclient.rb
+[HttpClient]:             https://github.com/lostisland/faraday-httpclient
 [Net::HTTP]:              https://github.com/lostisland/faraday-net_http
 [Net::HTTP::Persistent]:  https://github.com/lostisland/faraday-net_http_persistent
-[Patron]:                 https://github.com/lostisland/faraday/blob/main/lib/faraday/adapter/httpclient.rb
+[Patron]:                 https://github.com/lostisland/faraday-patron
 [Typhoeus]:               https://github.com/typhoeus/typhoeus/blob/master/lib/typhoeus/adapters/faraday.rb
 [HTTP.rb]:                https://github.com/lostisland/faraday-http
