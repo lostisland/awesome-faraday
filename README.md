@@ -20,6 +20,8 @@ The following table show the available adapters and which features they support.
 | [Patron]                | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✖️   |
 | [Typhoeus]              | v1 only |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [HTTP.rb]               |   ✖️    |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
+| [httpx]                 |   ✖️    |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
+
 
 ## Middleware
 
@@ -84,3 +86,4 @@ TBC
 [Patron]:                 https://github.com/lostisland/faraday-patron
 [Typhoeus]:               https://github.com/typhoeus/typhoeus/blob/master/lib/typhoeus/adapters/faraday.rb
 [HTTP.rb]:                https://github.com/lostisland/faraday-http
+[httpx]:                  https://honeyryderchuck.gitlab.io/httpx/wiki/Faraday-Adapter
