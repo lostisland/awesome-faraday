@@ -33,7 +33,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
 - [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
-- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
+- [retry](https://lostisland.github.io/faraday-retry) - retry intermittent HTTP failures
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
 #### Awesome Community Middleware
@@ -51,11 +51,19 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [logger](https://lostisland.github.io/faraday/middleware/logger) - log request and response
 - [multipart](https://lostisland.github.io/faraday/middleware/multipart) - encode request body as a multipart form
 - [raise_error](https://lostisland.github.io/faraday/middleware/raise-error) - raises exception on 4xx or 5xx
-- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
 - [token_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP token authentication
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
+- [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
+
+#### Bundled into their own gems
+
+- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
+- [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
 
 #### `faraday_middleware` gem
+
+ATTENTION: `faraday_middleware` have been deprecated and won't be updated to work on Faraday 2.0.
+All the middleware below will need to be moved into their own gems.
 
 - [caching](https://github.com/lostisland/faraday_middleware/blob/main/docs/caching_responses.md) - simple cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
 - [chunked](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/chunked.rb) - support for HTTP Transfer-Encoding
@@ -63,7 +71,6 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
 - [gzip](https://github.com/lostisland/faraday_middleware/blob/main/docs/gzip.md) - decompress responses (needed for some non-default adapters)
 - [instrumentation](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/instrumentation.rb) - instruments requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
-- [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
 - [json_fix](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_json.rb) - fix responses that insist on serving JSON with wrong mime types
 - [marshal](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_marshal.rb) - parse responses as marshalled ruby objects
 - [mashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/mashify.rb) - parse responses into a [Hashie::Mash](https://github.com/hashie/hashie)
