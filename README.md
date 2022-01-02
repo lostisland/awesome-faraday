@@ -49,7 +49,6 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [basic_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP basic auth
 - [instrumentation](https://lostisland.github.io/faraday/middleware/instrumentation) - instrument requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
 - [logger](https://lostisland.github.io/faraday/middleware/logger) - log request and response
-- [multipart](https://lostisland.github.io/faraday/middleware/multipart) - encode request body as a multipart form
 - [raise_error](https://lostisland.github.io/faraday/middleware/raise-error) - raises exception on 4xx or 5xx
 - [token_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP token authentication
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
@@ -57,7 +56,8 @@ In addition to this curated list of middleware, we would like to specifically ca
 
 #### Bundled into their own gems
 
-- [retry](https://lostisland.github.io/faraday/middleware/retry) - retry intermittent HTTP failures
+- [multipart](https://lostisland.github.io/faraday-multipart) - encode request body as a multipart form
+- [retry](https://lostisland.github.io/faraday-retry) - retry intermittent HTTP failures
 - [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
 
 #### `faraday_middleware` gem
