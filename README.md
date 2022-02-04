@@ -42,6 +42,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [detailed_logger](https://github.com/envylabs/faraday-detailed_logger) - robust logging for requests & responses
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
+- [gzip](https://github.com/bodrovis/faraday-gzip) - decompress responses (needed for some non-default adapters)
 
 #### Included with `faraday` itself
 
@@ -69,7 +70,6 @@ All the middleware below will need to be moved into their own gems.
 - [chunked](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/chunked.rb) - support for HTTP Transfer-Encoding
 - [dates](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_dates.rb) - parse ISO 8601 dates from response body
 - [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
-- [gzip](https://github.com/lostisland/faraday_middleware/blob/main/docs/gzip.md) - decompress responses (needed for some non-default adapters)
 - [instrumentation](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/instrumentation.rb) - instruments requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
 - [json_fix](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_json.rb) - fix responses that insist on serving JSON with wrong mime types
 - [marshal](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_marshal.rb) - parse responses as marshalled ruby objects
