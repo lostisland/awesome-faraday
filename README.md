@@ -31,9 +31,9 @@ In addition to this curated list of middleware, we would like to specifically ca
 
 - [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
-- [follow_redirects](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/follow_redirects.rb) - follow HTTP 30X redirects
-- [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
-- [retry](https://lostisland.github.io/faraday-retry) - retry intermittent HTTP failures
+- [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
+- [json_request](https://lostisland.github.io/faraday/middleware/json-request) and [json_response](https://lostisland.github.io/faraday/middleware/json-response) - encode/decode JSON requests and responses
+- [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
 #### Awesome Community Middleware
@@ -57,9 +57,10 @@ In addition to this curated list of middleware, we would like to specifically ca
 
 #### Bundled into their own gems
 
-- [multipart](https://lostisland.github.io/faraday-multipart) - encode request body as a multipart form
-- [retry](https://lostisland.github.io/faraday-retry) - retry intermittent HTTP failures
+- [multipart](https://github.com/lostisland/faraday-multipart) - encode request body as a multipart form
+- [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
+- [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
 
 #### `faraday_middleware` gem
 
