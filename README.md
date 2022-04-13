@@ -18,7 +18,7 @@ The following table show the available adapters and which features they support.
 | [Net::HTTP]             | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Net::HTTP::Persistent] | v1 only |   ✔️   |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Patron]                | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✖️   |
-| [Typhoeus]              | v1 only |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
+| [Typhoeus]              | v1 only |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [HTTP.rb]               |   ✖️    |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [httpx]                 |   ✖️    |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 
@@ -92,6 +92,6 @@ TBC
 [Net::HTTP]:              https://github.com/lostisland/faraday-net_http
 [Net::HTTP::Persistent]:  https://github.com/lostisland/faraday-net_http_persistent
 [Patron]:                 https://github.com/lostisland/faraday-patron
-[Typhoeus]:               https://github.com/typhoeus/typhoeus/blob/master/lib/typhoeus/adapters/faraday.rb
+[Typhoeus]:               https://github.com/dleavitt/faraday-typhoeus
 [HTTP.rb]:                https://github.com/lostisland/faraday-http
 [httpx]:                  https://honeyryderchuck.gitlab.io/httpx/wiki/Faraday-Adapter
