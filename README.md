@@ -18,7 +18,7 @@ The following table show the available adapters and which features they support.
 | [Net::HTTP]             | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Net::HTTP::Persistent] | v1 only |   ✔️   |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Patron]                | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✖️   |
-| [Typhoeus]              | v1 only |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
+| [Typhoeus]              | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [HTTP.rb]               |   ✖️    |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [httpx]                 |   ✖️    |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 
