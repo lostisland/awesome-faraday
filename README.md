@@ -33,6 +33,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
 - [json_request](https://lostisland.github.io/faraday/middleware/json-request) and [json_response](https://lostisland.github.io/faraday/middleware/json-response) - encode/decode JSON requests and responses
+- [parse_dates](https://github.com/AlexWayfer/faraday-parse_dates) - parse ISO 8601 dates from response body
 - [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
 
