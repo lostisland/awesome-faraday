@@ -62,6 +62,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
+- [decode_xml](https://github.com/soberstadt/faraday-decode_xml) - decode XML responses
 
 #### `faraday_middleware` gem
 
