@@ -44,6 +44,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
 - [gzip](https://github.com/bodrovis/faraday-gzip) - decompress responses (needed for some non-default adapters)
+- [jwt](https://github.com/nov/faraday-jwt) - JWT request encode & response decode with optional signing & verifications
 
 #### Included with `faraday` itself
 
