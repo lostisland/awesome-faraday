@@ -29,7 +29,6 @@ Under the hood, Faraday uses a Rack-inspired middleware stack for making request
 
 In addition to this curated list of middleware, we would like to specifically call your attention to middleware that is helpful for general HTTP use:
 
-- [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
 - [json_request](https://lostisland.github.io/faraday/middleware/json-request) and [json_response](https://lostisland.github.io/faraday/middleware/json-response) - encode/decode JSON requests and responses
@@ -63,7 +62,9 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
+- [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [decode_xml](https://github.com/soberstadt/faraday-decode_xml) - decode XML responses
+- [`XML Middleware`](https://github.com/gemhome/faraday-xml) - parses response body into a hash of key/value pairs.
 
 #### `faraday_middleware` gem
 
