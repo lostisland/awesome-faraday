@@ -85,7 +85,9 @@ All the middleware below will need to be moved into their own gems.
 - [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parse responses as XML
 - [yaml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_yaml.rb) - parse responses as YAML
 
-### Body Types
+### Tooling
+
+- [faraday-logging-color_formatter](https://github.com/kobusjoubert/faraday-logging-color_formatter) - A color formatter for the default Faraday logger
 
 TBC
 
