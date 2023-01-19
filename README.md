@@ -89,7 +89,6 @@ All the middleware below will need to be moved into their own gems.
 
 - [faraday-logging-color_formatter](https://github.com/kobusjoubert/faraday-logging-color_formatter) - A color formatter for the default Faraday logger
 
-TBC
 
 [EM::HTTP]:               https://github.com/lostisland/faraday-em_http
 [EM::Synchrony]:          https://github.com/lostisland/faraday-em_synchrony
