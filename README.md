@@ -64,7 +64,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
 - [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [decode_xml](https://github.com/soberstadt/faraday-decode_xml) - decode XML responses
-- [`XML Middleware`](https://github.com/gemhome/faraday-xml) - parses response body into a hash of key/value pairs.
+- [`XML Middleware`](https://github.com/gemhome/faraday-xml) - encodes requests as XML, parses response body into a hash of key/value pairs, and provides access to parser/encoder primitives for handling whatever needs arise
 
 #### `faraday_middleware` gem
 
