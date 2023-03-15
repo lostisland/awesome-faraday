@@ -11,6 +11,7 @@ The following table show the available adapters and which features they support.
 
 | Adapter | Bundled with Faraday | Reason Phrase parsing | Compression (Gzip, Deflate) | Response Streaming | Parallel Requests | GET, HEAD, DELETE, TRACE Request Body | HEAD Response Body | TRACE Method | Local Socket Binding |
 | ----------------------- |  :---:  | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| [Async::HTTP::Faraday]  |   ✖️    |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 | [EM::HTTP]              | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [EM::Synchrony]         | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [Excon]                 | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
@@ -21,7 +22,6 @@ The following table show the available adapters and which features they support.
 | [Typhoeus]              | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [HTTP.rb]               |   ✖️     |   ✔️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [httpx]                 |   ✖️     |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
-
 
 ## Middleware
 
@@ -89,7 +89,7 @@ All the middleware below will need to be moved into their own gems.
 
 - [faraday-logging-color_formatter](https://github.com/kobusjoubert/faraday-logging-color_formatter) - A color formatter for the default Faraday logger
 
-
+[Async::HTTP::Faraday]:   https://github.com/socketry/async-http-faraday
 [EM::HTTP]:               https://github.com/lostisland/faraday-em_http
 [EM::Synchrony]:          https://github.com/lostisland/faraday-em_synchrony
 [Excon]:                  https://github.com/lostisland/faraday-excon
