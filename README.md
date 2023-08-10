@@ -44,6 +44,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [http_cache](https://github.com/sourcelevel/faraday-http-cache) - standards compliant cache that works with [ActiveSupport::Cache](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html)
 - [gzip](https://github.com/bodrovis/faraday-gzip) - decompress responses (needed for some non-default adapters)
 - [jwt](https://github.com/nov/faraday-jwt) - JWT request encode & response decode with optional signing & verifications
+- [mashify](https://github.com/sue445/faraday-mashify) - parse responses into a [Hashie::Mash](https://github.com/hashie/hashie) (for Faraday 2)
 
 #### Included with `faraday` itself
 
@@ -78,12 +79,15 @@ All the middleware below will need to be moved into their own gems.
 - [instrumentation](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/instrumentation.rb) - instruments requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
 - [json_fix](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_json.rb) - fix responses that insist on serving JSON with wrong mime types
 - [marshal](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_marshal.rb) - parse responses as marshalled ruby objects
-- [mashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/mashify.rb) - parse responses into a [Hashie::Mash](https://github.com/hashie/hashie)
 - [method_override](https://github.com/lostisland/faraday_middleware/blob/main/docs/method_override.md) - support for X-Http-Method-Override
 - [oauth/oauth2](https://github.com/lostisland/faraday_middleware/blob/main/docs/oauth.md) - adds an oauth access token to each request
 - [rashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/rashify.rb) - parse responses into a [Hashie::Rash](https://github.com/hashie/hashie)
 - [xml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_xml.rb) - parse responses as XML
 - [yaml](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/parse_yaml.rb) - parse responses as YAML
+
+Has been moved into community gems (see list above):
+
+- [mashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/mashify.rb)
 
 ## Tooling
 
