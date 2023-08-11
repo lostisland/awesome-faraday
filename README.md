@@ -87,7 +87,7 @@ All the middleware below will need to be moved into their own gems.
 
 Has been moved into community gems (see list above):
 
-- [mashify](https://github.com/lostisland/faraday_middleware/blob/main/lib/faraday_middleware/response/mashify.rb)
+- mashify
 
 ## Tooling
 
