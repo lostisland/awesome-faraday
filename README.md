@@ -59,6 +59,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 
 #### Bundled into their own gems
 
+- [oauth1](https://github.com/gemhome/faraday-oauth1) - adds an oauth1 access token to each request, via param or header
 - [multipart](https://github.com/lostisland/faraday-multipart) - encode request body as a multipart form
 - [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
 - [rashify](https://github.com/lostisland/faraday-rashify) - parse responses into a [Hashie::Mash::Rash](https://github.com/hashie/hashie)
