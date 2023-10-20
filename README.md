@@ -14,7 +14,7 @@ The following table show the available adapters and which features they support.
 | [Async::HTTP::Faraday]  |   ✖️    |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 | [EM::HTTP]              | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [EM::Synchrony]         | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
-| [Excon]                 | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
+| [Excon]                 | v1 only |   ✔️   |   ✖️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 | [HttpClient]            | v1 only |   ✔️   |   ✔️   |   ✖️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
 | [Net::HTTP]             |   ✔️     |   ✔️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [Net::HTTP::Persistent] | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
