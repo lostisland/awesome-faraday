@@ -31,10 +31,10 @@ In addition to this curated list of middleware, we would like to specifically ca
 
 - [encoding](https://github.com/ma2gedev/faraday-encoding) - required for handling UTF-8 responses
 - [follow_redirects](https://github.com/tisba/faraday-follow-redirects) - follow HTTP 30X redirects
-- [json_request](https://lostisland.github.io/faraday/middleware/json-request) and [json_response](https://lostisland.github.io/faraday/middleware/json-response) - encode/decode JSON requests and responses
+- [json_request](https://lostisland.github.io/faraday/#/middleware/included/json?id=json-requests) and [json_response](https://lostisland.github.io/faraday/#/middleware/included/json?id=json-responses) - encode/decode JSON requests and responses
 - [parse_dates](https://github.com/AlexWayfer/faraday-parse_dates) - parse ISO 8601 dates from response body
 - [retry](https://github.com/lostisland/faraday-retry) - retry intermittent HTTP failures
-- [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
+- [url_encoded](https://lostisland.github.io/faraday/#/middleware/included/url-encoding) - encode request body as a url-encoded form upload
 
 #### Awesome Community Middleware
 
@@ -49,12 +49,12 @@ In addition to this curated list of middleware, we would like to specifically ca
 #### Included with `faraday` itself
 
 - [authorization](https://github.com/lostisland/faraday/blob/main/lib/faraday/request/authorization.rb) - middleware for the Authorization HTTP header
-- [basic_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP basic auth
-- [instrumentation](https://lostisland.github.io/faraday/middleware/instrumentation) - instrument requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
-- [logger](https://lostisland.github.io/faraday/middleware/logger) - log request and response
-- [raise_error](https://lostisland.github.io/faraday/middleware/raise-error) - raises exception on 4xx or 5xx
-- [token_authentication](https://lostisland.github.io/faraday/middleware/authentication) - HTTP token authentication
-- [url_encoded](https://lostisland.github.io/faraday/middleware/url-encoded) - encode request body as a url-encoded form upload
+- [basic_authentication](https://lostisland.github.io/faraday/#/middleware/included/authentication?id=basic-authentication) - HTTP basic auth
+- [instrumentation](https://lostisland.github.io/faraday/#/middleware/included/instrumentation) - instrument requests using [ActiveSupport::Notifications](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html) or similar
+- [logger](https://lostisland.github.io/faraday/#/middleware/included/logging) - log request and response
+- [raise_error](https://lostisland.github.io/faraday/#/middleware/included/raising-errors) - raises exception on 4xx or 5xx
+- [token_authentication](https://lostisland.github.io/faraday/#/middleware/included/authentication) - HTTP token authentication
+- [url_encoded](https://lostisland.github.io/faraday/#/middleware/included/url-encoding) - encode request body as a url-encoded form upload
 - [json](https://github.com/lostisland/faraday_middleware) - encode/decode JSON requests and responses
 
 #### Bundled into their own gems
