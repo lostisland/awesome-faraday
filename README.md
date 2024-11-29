@@ -67,6 +67,7 @@ In addition to this curated list of middleware, we would like to specifically ca
 - [encode_xml](https://github.com/AlexWayfer/faraday-encode_xml) - encode XML requests (responses decoding is included in `faraday_middleware` gem)
 - [decode_xml](https://github.com/soberstadt/faraday-decode_xml) - decode XML responses
 - [`XML Middleware`](https://github.com/gemhome/faraday-xml) - encodes requests as XML, parses response body into a hash of key/value pairs, and provides access to parser/encoder primitives for any custom handling.
+- [aws-xray](https://github.com/jayzes/faraday-aws-xray) - records Faraday request spans in [AWS X-Ray](https://aws.amazon.com/xray/)
 
 #### `faraday_middleware` gem
 
