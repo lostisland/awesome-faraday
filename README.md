@@ -22,6 +22,7 @@ The following table show the available adapters and which features they support.
 | [Typhoeus]              | v1 only |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✖️   |
 | [HTTP.rb]               |   ✖️     |   ✔️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✖️   |   ✔️   |   ✔️   |
 | [httpx]                 |   ✖️     |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
+| [Rack]                  | v1 only  |   ✖️   |   ?    |   ?   |   ?   |   ✔️   |   ?   |   ✔️   |   ?   |
 
 ## Middleware
 
@@ -106,3 +107,4 @@ Has been moved into community gems (see list above):
 [Typhoeus]:               https://github.com/dleavitt/faraday-typhoeus
 [HTTP.rb]:                https://github.com/lostisland/faraday-http
 [httpx]:                  https://honeyryderchuck.gitlab.io/httpx/wiki/Faraday-Adapter
+[Rack]:                   https://github.com/lostisland/faraday-rack
